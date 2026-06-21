@@ -162,6 +162,14 @@ export default function Projects() {
           opacity: 1;
           box-shadow: 0 0 10px rgba(237, 177, 255, 0.5);
         }
+        .swiper-slide:not(.swiper-slide-active) {
+          opacity: 0.6;
+        }
+        .swiper-slide-active .glass-panel {
+          background: rgba(255, 255, 255, 0.1);
+          border-color: rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 40px rgba(157, 80, 187, 0.15);
+        }
       `}</style>
     </section>
   );
