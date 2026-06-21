@@ -9,6 +9,15 @@ import 'swiper/css/pagination';
 
 const projects = [
   {
+    title: 'IQPrompt',
+    subtitle: 'SaaS Application',
+    description: 'A comprehensive full-stack SaaS platform designed for AI engineers to manage, test, and deploy complex LLM prompts. Features include A/B testing, version control, analytics dashboards, and integrated Stripe billing for scalable subscription management.',
+    tech: ['FastAPI', 'React', 'Stripe', 'OpenAI', 'PostgreSQL'],
+    status: 'Live',
+    statusColor: '#4ade80',
+    link: 'https://iqprompt.ai/'
+  },
+  {
     title: 'Fikar',
     subtitle: 'Organizational Memory AI',
     description: 'Fikar captures critical decisions, risks, and action items from everyday conversations, ensuring teams never lose track of what matters. Engineered as an advanced AI platform, it transforms unstructured meeting transcripts and communications into a fully searchable, dynamic knowledge graph.',
@@ -18,13 +27,13 @@ const projects = [
     link: 'https://www.fikar.ai/'
   },
   {
-    title: 'IQPrompt',
-    subtitle: 'SaaS Application',
-    description: 'A comprehensive full-stack SaaS platform designed for AI engineers to manage, test, and deploy complex LLM prompts. Features include A/B testing, version control, analytics dashboards, and integrated Stripe billing for scalable subscription management.',
-    tech: ['FastAPI', 'React', 'Stripe', 'OpenAI', 'PostgreSQL'],
+    title: 'Priwall by mePrism',
+    subtitle: 'Privacy Protection Platform',
+    description: 'An advanced data privacy platform that helps individuals and businesses automatically find and remove their exposed personal information from over 600 online data brokers, heavily reducing the risk of identity theft and cyber scams.',
+    tech: ['FastAPI', 'React', 'PostgreSQL', 'AWS'],
     status: 'Live',
     statusColor: '#4ade80',
-    link: 'https://iqprompt.ai/'
+    link: 'https://meprism.com/'
   },
   {
     title: 'AI Chat Platform',
@@ -52,6 +61,15 @@ const projects = [
     status: 'Completed',
     statusColor: '#edb1ff',
     link: '#'
+  },
+  {
+    title: 'Union Exchange',
+    subtitle: 'Financial Services Platform',
+    description: 'A robust financial and currency exchange platform providing real-time exchange rates, secure online transactions, and a dynamic financial reporting system. Engineered with top-tier security standards to ensure absolute financial integrity.',
+    tech: ['Django', 'React', 'PostgreSQL', 'Redis'],
+    status: 'Live',
+    statusColor: '#4ade80',
+    link: 'https://www.unionexchange.pk/'
   }
 ];
 
